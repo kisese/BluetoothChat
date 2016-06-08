@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.alexkang.bluechat.ClientActivity">
+
+
+    <item android:id="@+id/action_video"
+        android:title="@string/action_reopen"
+        android:icon="@drawable/ic_video"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>

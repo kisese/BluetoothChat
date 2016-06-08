@@ -1,0 +1,15 @@
+/AndroidBootstrap/proguard-project.txt
+/.idea
+/AndroidBootstrap/build
+/gradlew.bat
+/gradlew
+/gradle.properties
+/gradle
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures

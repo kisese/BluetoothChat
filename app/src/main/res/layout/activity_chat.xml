@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animateLayoutChanges="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/message_feed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="3dp"
+        android:divider="#FFFFFF"
+        android:padding="16dp"
+        android:footerDividersEnabled="false"
+        android:stackFromBottom="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/send_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8E8E8"
+        android:padding="10dp"
+        android:divider="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/attach"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/ic_attach" />
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:background="@drawable/edittext_background"
+            android:singleLine="true"
+            android:imeOptions="actionDone" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/ic_action_send" />
+    </LinearLayout>
+
+</RelativeLayout>

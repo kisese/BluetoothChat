@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BluetoothChat</string>
+    <string name="content_desc">Image</string>
+    <string name="edit_name">Edit name</string>
+    <string name="host">Host</string>
+    <string name="join">Join</string>
+    <string name="title_activity_host">Host a ChatRoom</string>
+    <string name="title_activity_client">Join a ChatRoom</string>
+    <string name="action_reopen">Reopen ChatRoom</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+</resources>
